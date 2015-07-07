@@ -2,6 +2,7 @@
   "name": "changeme",
   "version": "0.0.0",
   "description": "",
+  "main" : "electron/main.js",
   "scripts": {
     "debug": "node ./webpack/dev-server.js",
     "build": "node node_modules/webpack/bin/webpack.js -p --colors --progress --config=./webpack/prod.config.js"
