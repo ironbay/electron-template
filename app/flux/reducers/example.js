@@ -1,5 +1,4 @@
-import * as Actions from "constants/actions"
-import createStore from "util/store"
+import * as Actions from "constants/actions""
 
 export default function (state={}, action) {
 	switch (action.type) {
